@@ -29,7 +29,7 @@ services:
     build: ./
     volumes:
       - ./:/usr/src/smart-brain-api
-    command: npm start
+    command: npm  vb
     working_dir: /usr/src/smart-brain-api
     ports:
       - "3000:3000"
